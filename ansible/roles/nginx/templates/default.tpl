@@ -20,8 +20,8 @@ server {
         }
     }
 
-access_log {{ doc_root }}/ezpublish/logs/httpd-access.log;
-error_log  {{ doc_root }}/ezpublish/logs/httpd-error.log notice;
+#access_log {{ doc_root }}/ezpublish/logs/httpd-access.log;
+#error_log  {{ doc_root }}/ezpublish/logs/httpd-error.log notice;
 
-include ez_params.d/ez_server_params;
+    include ez_params.d/ez_server_params;
 }
