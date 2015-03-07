@@ -25,4 +25,3 @@ error_log  {{ doc_root }}/ezpublish/logs/httpd-error.log notice;
 
 include ez_params.d/ez_server_params;
 }
-
